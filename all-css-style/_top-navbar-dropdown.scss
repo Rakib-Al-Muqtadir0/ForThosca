@@ -1,0 +1,191 @@
+.fuck {
+    position: absolute;
+    
+    left: 0 !important;
+    top: 27px;
+    display: none;
+    transition: all 0.3s ease !important;
+}
+
+.make-hover:hover .fuck {
+    display: block;
+    
+}
+
+
+.menu_wrapper .dropdown-mega .dropdown-menu {
+    margin-top: 15px;
+    width: 100vw;
+}
+
+.img-wrap-1 {
+    position: relative;
+    
+}
+.dropdown-photo-two {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 0;
+}
+.img-wrap-1:hover .dropdown-photo-two {
+    opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 0.4s ease-out;
+        -o-transition: opacity 0.4s ease-out;
+        transition: opacity 0.4s ease-out;
+        
+}
+.befor-and-cureent-price del {
+    margin-right: 4px;
+    color: grey;
+}
+
+.dropdown-img-product-driscription, .dropdown-img-product-driscription-second, .dropdown-img-product-driscription-three {
+    text-align: center;
+    font-size: 13px;
+}
+.img-wrap-2 {
+    position: relative;
+}
+.dropdown-photo-two-of-two {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+.img-wrap-2:hover .dropdown-photo-two-of-two {
+    opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 0.4s ease-out;
+        -o-transition: opacity 0.4s ease-out;
+        transition: opacity 0.4s ease-out;
+}
+
+.img-wrap-3 {
+    position: relative;
+}
+
+.dropdown-photo-two-of-three {
+    position: absolute;
+    left: 0;
+        opacity: 0;
+        z-index: 0;
+}
+.img-wrap-3:hover .dropdown-photo-two-of-three {
+    opacity: 1;
+        z-index: 1;
+        -webkit-transition: opacity 0.4s ease-out;
+        -o-transition: opacity 0.4s ease-out;
+        transition: opacity 0.4s ease-out;
+}
+.fs-cus {
+    font-size: 14px !important;
+}
+.roww-menu-item-wrap {
+    line-height: 15px;
+}
+
+.fs-cus {
+    position: relative;
+}
+.fs-cus::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: -6px;
+    
+    background-color: black;
+    border-radius: 50%;
+}
+.fs-cus:hover::before {
+    width: 6px;
+        height: 6px;
+        
+}
+
+
+.img-wrap-1 {
+    position: relative;
+}
+.dropdown-img-icon-wrap {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   position: absolute;
+   bottom: 13px;
+   left: 34px;
+    
+}
+.dropdown-img-icon-wrap a {
+    width: 23px;
+    height: 23px;
+    z-index: 2;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+    transition: all .3s cubic-bezier(0, 0, .2, 1);
+    
+}
+.for-hover-icon:hover {
+    background-color: rgb(16, 217, 231);
+    
+}
+
+
+.img-wrap-1:hover a {
+    opacity: 1;
+    z-index: 1;
+    transform: translateZ(0);
+    
+}
+
+.img-wrap-2 {
+    position: relative;
+}
+.img-wrap-2:hover a {
+    opacity: 1;
+    z-index: 1;
+    transform: translateZ(0);
+
+}
+.img-wrap-3 {
+    position: relative;
+}
+.img-wrap-3:hover a {
+    opacity: 1;
+    z-index: 1;
+    transform: translateZ(0);
+
+}
+
+.make-hover-2:hover .hoverd {
+    display: block;
+}
+
+.fs-cus-2 {
+    position: relative;
+}
+.fs-cus-2::before {
+    content: '';
+        position: absolute;
+        top: 14px;
+        left: 3px;
+    
+        background-color: black;
+        border-radius: 50%;
+}
+.fs-cus-2:hover::before {
+    width: 6px;
+        height: 6px;
+}
+.hoverd {
+    margin-top: 7px !important;
+}

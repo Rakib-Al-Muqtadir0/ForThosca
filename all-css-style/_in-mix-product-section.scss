@@ -1,0 +1,132 @@
+
+.form-select {
+    width: auto !important;
+    border: none !important;
+    outline: none !important;
+    padding-left: 7px !important;
+
+}
+.wrap-for-problem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-product-head-text {
+    margin-top: 16px;
+}
+
+
+
+.form-select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.images-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.font-img {
+    width: 100%;
+    max-width: 145px;
+}
+.back-img {
+    width: 100%;
+        max-width: 145px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        opacity: 0;
+}
+.images-wrap:hover .back-img {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1.2);
+    
+        -webkit-transition: opacity 0.4s ease-out;
+        -o-transition: opacity 0.4s ease-out;
+        transition: opacity 0.4s ease-out;
+}
+
+.mix-product-img-icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:   1.3vw;
+}
+.images-wrap {
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+}
+.mix-product-img-icon-wrap  {
+    
+    position: absolute;
+    bottom: 10px;
+    
+    justify-content: center;
+    
+}
+.mix-pro-hover-icon {
+    width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        opacity: 0;
+            transform: translate3d(0, 100%, 0);
+            opacity: 0;
+            transition: all .3s cubic-bezier(0, 0, .2, 1);
+}
+.images-wrap:hover .mix-product-img-icon-wrap {
+    z-index: 2;
+}
+
+.images-wrap:hover .mix-pro-hover-icon {
+    opacity: 1;
+        z-index: 1;
+        transform: translateZ(0);
+}
+
+.mix-pro-hover-icon:hover {
+    background-color: rgb(16, 217, 231);
+}
+
+.head-1 p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.mix-pro-img-discrip-wrap {
+    text-align: center;
+}
+.prices del {
+    color: grey;
+}
+.prices p {
+    font-size: 12px;
+}
+.select-from-cus:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width:768px){
+    .in-mix-product-section-inner {
+            width: 620px;
+            margin: auto;
+        }
+        
+}
+@media only screen and (max-width:768px){
+    .image-section {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+}

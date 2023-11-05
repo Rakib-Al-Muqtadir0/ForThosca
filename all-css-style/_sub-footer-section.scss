@@ -1,0 +1,40 @@
+.inner-sub-footer-section {
+    margin-top: 6%;
+}
+
+.input-btn-cus:focus {
+    box-shadow: none !important;
+
+
+}
+
+.btn.focus,
+.btn:focus {
+
+    box-shadow: none !important;
+}
+.get-voucher-cus p {
+    font-size:30px ;
+}
+.enter-ur-mail-cus p {
+    font-size: 15px;
+    margin-bottom: 1.5%;
+}
+.for-fs {
+    font-size: 13px !important;
+    margin-top: 8px;
+    color: #8e9194;
+}
+.many-menu-cus {
+    margin-left: 90px !important;
+}
+@media only screen and (max-width:1200px){
+    .many-menu-main-cus {
+        margin: auto !important;
+        justify-content: center;
+    }
+    .many-menu-cus {
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
+}

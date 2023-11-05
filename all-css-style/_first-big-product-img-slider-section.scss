@@ -1,0 +1,296 @@
+
+
+.owl-dot {
+    display: block !important;
+
+}
+
+.carousel-1 {
+    position: relative;
+}
+
+
+
+.owl-dot.active span {
+    background-color: rgb(19, 17, 17) !important;
+    
+    
+}
+
+.in-the-bg-img-1 {
+    width: 100%;
+    padding-top: 47%;
+    background-image: url("../main-head-slider-product-img/slider_01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.price-wrap-1 {
+    width: 4%;
+    padding-top: 4%;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: auto;
+}
+.price-wrap-1 p {
+    margin-top: -76%;
+    font-size: 1.4vw;
+    color: white;
+}
+.product-text-0 p {
+    font-size: 3vw;
+    color: white !important;
+}
+.big-photo-slider-img-text-wrap-0 {
+    text-align: center;
+    margin-top: -26%;
+
+    
+}
+.first-slid-btn-cus-0 {
+    border-radius: 0 !important;
+    border-color: white !important;
+    font-size: 1vw !important;
+    color: white !important;
+}
+.first-slid-btn-cus-0:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.owl-item.active .price-wrap-1 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.6s;
+
+}
+
+.owl-item.active .product-text-0 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: backInDown;
+
+    animation-delay: 0.4s;
+
+}
+
+.owl-item.active .first-slid-btn-cus-0 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.4s;
+
+}
+.in-the-bg-img-2 {
+    width: 100%;
+    padding-top: 47%;
+    background-image: url("../main-head-slider-product-img/slider_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.big-photo-slider-img-text-wrap-1 {
+    text-align: center;
+    margin-top: -26%;
+
+
+}
+.price-wrap-2 {
+    width: 4%;
+    padding-top: 4%;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.price-wrap-2 p {
+    margin-top: -76%;
+    font-size: 1.4vw;
+    color: white;
+}
+.product-text-1 p {
+    font-size: 3vw;
+    color: white !important;
+}
+.big-photo-slider-img-text-wrap-1 {
+    text-align: center;
+    margin-top: -26%;
+
+
+}
+.first-slid-btn-cus-1 {
+    border-radius: 0 !important;
+    border-color: white !important;
+    font-size: 1vw !important;
+    color: white !important;
+}
+
+.first-slid-btn-cus-1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.owl-item.active .price-wrap-2 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.6s;
+
+}
+.owl-item.active .product-text-1 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: backInDown;
+
+    animation-delay: 0.4s;
+
+}
+.owl-item.active .first-slid-btn-cus-1 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.4s;
+
+}
+.in-the-bg-img-3 {
+    width: 100%;
+    padding-top: 47%;
+    background-image: url("../main-head-slider-product-img/slider_03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.big-photo-slider-img-text-wrap-2 {
+    text-align: center;
+    margin-top: -26%;
+
+
+}
+.price-wrap-3 {
+    width: 4%;
+    padding-top: 4%;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: auto;
+}
+.price-wrap-3 p {
+    margin-top: -76%;
+    font-size: 1.4vw;
+    color: white;
+}
+.product-text-2 p {
+    font-size: 3vw;
+    color: white !important;
+}
+.big-photo-slider-img-text-wrap-2 {
+    text-align: center;
+    margin-top: -26%;
+
+
+}
+.first-slid-btn-cus-2 {
+    border-radius: 0 !important;
+    font-size: 1vw !important;
+    color: white !important;
+}
+.first-slid-btn-cus-2:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.owl-item.active .price-wrap-3 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.6s;
+
+}
+.owl-item.active .product-text-2 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: backInDown;
+
+    animation-delay: 0.4s;
+
+}
+.owl-item.active .first-slid-btn-cus-2 {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    animation-name: zoomIn;
+
+    animation-delay: 0.4s;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .owl-dots {
+            display: flex;
+            top: -40% !important;
+            
+            justify-content: center !important;
+    }
+}
+@media only screen and (min-width: 800px){
+    .owl-dots {
+        position: absolute;
+            top: 40%;
+            right: 0;
+    }
+}

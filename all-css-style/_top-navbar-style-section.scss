@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Playfair+Display&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu_wrapper {
+    height: 53px;
+}
+
+.top-nav-inner {
+    position: relative;
+    
+}
+
+.bag-and-src-icon-wrap {
+    position: absolute;
+    right: 1.8%;
+}
+
+.menu-item-ul-cus {
+    margin-left: -5%;
+}
+
+.Theshop-in-the-menu-item {
+    margin-top: -10px;
+}
+
+.fs {
+    font-size: 14px !important;
+}
+
+
+
+
+.phseudo-for-bag-icon::after {
+    content: '1';
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 36px;
+    bottom: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 13px;
+    background-color: red;
+}
+
+.for-star-icon-pseudo::after {
+    content: '1';
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 60px;
+    bottom: 16px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 13px;
+    background-color: red;
+}
+
+.modal-dialog {
+    max-width: 100% !important;
+    
+    
+}
+
+
+
+
+                       
+
+.for-star-icon-pseudo:hover .star-icon-cus {
+    opacity: 0.4 !important;
+}
+
+.for-user-icon-pseudo:hover .user-icon-cus {
+    opacity: 0.4 !important;
+}
+
+.for-src-icon-cus:hover .src-icon-cus {
+    opacity: 0.4 !important;
+}
+
+.phseudo-for-bag-icon:hover .bag-icon-cus {
+    opacity: 0.4 !important;
+}
+
+
+
+/**/
+
+
+
+/* এটার মাদ্ধমে যেই dropdown menu আপনি display full width নিয়ে দেখতে চাচ্ছেন সেটার জন্ন্যই width 100vw set করা হয়েছে */
+
+@media only screen and (min-width:992px){
+   .bag-and-src-icon-wrap {
+    margin-right: 7% !important;
+   }
+   .user-and-star-icon-cus {
+    transform: translateX(95px);
+   }
+   .for-star-icon-pseudo::after {
+    left: 48px;
+   }
+}
+
+@media only screen and (max-width: 571px){
+    .bag-and-src-icon-wrap {
+        margin-right: 10px !important;
+    }
+}
