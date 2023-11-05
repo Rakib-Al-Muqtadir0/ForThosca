@@ -1,0 +1,662 @@
+
+
+/* product slider section start */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.main-pht-cus img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.small-pht-cus img {
+    width: 100%;
+    max-width: 65px;
+    
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+:root {
+    --swiper-navigation-size: 20px !important;
+}
+.swiper-pagination {
+    font: 200px !important;
+}
+
+
+
+ .mySwiper .swiper-slide {
+     width: 25%;
+     height: 100%;
+     opacity: 0.4;
+ }
+
+
+
+.mySwiper2 {
+    width: 100%;
+    max-width: 300px;
+    
+    
+}
+
+.mySwiper {
+    margin-top: 0.3% !important;
+    width: 100%;
+    max-width: 300px;
+    
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+/* product slider section end */
+
+.head-text-cus p {
+    font-size: 40px;
+}
+
+
+
+
+.for-space-each-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.past-prices del {
+    color: hsl(0, 0%, 80%);
+}
+.past-prices::before {
+    content: '';
+    position: absolute;
+    
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    transform: skewX(-25deg);
+}
+.prices-wrap {
+    display: flex;
+    flex-direction: row;
+}
+.past-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.past-prices span {
+    font-size: 11px;
+    background-color: #2fbeab;
+    width: 30px;
+    border-radius: 15%;
+    margin-left: 7%;
+}
+.current-price span {
+    font-size: 25px;
+    
+}
+
+/* choose color style start */
+
+.choose-color-cus button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    transition: box-shadow, 250ms;
+}
+.choose-color-cus button.selected,
+.choose-color-cus button:hover:not(.selected){
+    
+    box-shadow: inset 0 0 0 4px #ffffff;
+    
+    
+}
+/* choose color style end */
+
+/* sizes start */
+.all-sizes button {
+    width: 30px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+.all-sizes .selected {
+    background-color: black;
+    color: white;
+}
+.all-sizes button:hover:not(.selected, [disabled]){
+    border-color: red;
+    
+}
+.all-sizes button:hover.disa {
+    cursor: not-allowed;
+}
+/* sizes end */
+
+.quantity button {
+    width: 27px;
+    font-size: 18px;
+    border: none;
+    background-color: #f0f0f0;
+    
+}
+.quantity {
+    width: 85px;
+    height: 30px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    
+}
+.quantity input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.two-btn-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+ .add-cart .btn {
+    border-radius: 0;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    padding: 3px 90px;
+    font-size: 15px;
+}  
+  
+
+.buy-now-cus button {
+    border-radius: 0;
+    padding: 8px 161px;
+        font-size: 11px;
+        color: white;
+        background-color: black;
+        font-weight: bold;
+}
+
+.buy-now-cus button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* wish list start */
+.all-wish-list-wrap .for-fs {
+    font-size: 12px;
+}
+.question-cus:hover {
+    opacity: 0.5;
+}
+.wish-list-icon:hover {
+    opacity: 0.5;
+}
+.compare-cus:hover {
+    opacity: 0.5;
+}
+.share-cus:hover {
+    opacity: 0.5;
+}
+.product-discription-footer-wrap .for-fs {
+    font-size: 12px;
+}
+
+
+.for-sp-hover:hover {
+    opacity: 0.5;
+}
+.for-sp-two-hove:hover {
+    opacity: 0.5;
+}
+
+.submit-btn-cus button {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+.modal-header .btn-close {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*2nd modal start*/
+.header-cus {
+    border-bottom: none !important;
+    padding-bottom: 9px !important;
+}
+.model-body-cus {
+    padding-top: 0 !important;
+}
+.model-title-cus {
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.model-footer-cus {
+    border-top: none !important;
+    padding-bottom: 0 !important;
+}
+
+.all-share-icon-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/* lick copy section start */
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: #cfd8dd !important;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+
+    
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.main input {
+    width: 100%;
+    max-width: 500px;
+    height: 37px;
+    border: none;
+    background-color: #cfd8dd;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    background-color: #cfd8dd;
+    
+}
+
+.btn-cuss-prob {
+    --bs-btn-border-width: 0 !important;
+}
+.main button:focus {
+    outline: none !important;
+        border: none !important;
+}
+.main button:active {
+    outline: none !important;
+    border: none !important;
+}
+
+.main button {
+
+    padding-left: 0;
+}
+
+/* CSS for styling the clipboard input and tooltip */
+
+
+
+
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: 10%;
+    right: 45%;
+}
+
+
+/* review section start */
+.for-rel {
+    position: relative;
+}
+
+.for-review-number::after{
+    content: '1';
+    position: absolute;
+    width: 16px;
+    width: 16px;
+    border-radius: 50%;
+    font-size: 11px;
+    background-color: black ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5%;
+    right: 0;
+}
+
+
+
+
+
+
+@media (max-width:401px){
+    .add-cart .btn{
+        padding: 5px 45px;
+        font-size: 12px;
+    }
+        .buy-now-cus button {
+            padding: 9px 108px;
+                font-size: 10px;
+        }
+}
+@media (min-width:768px) and (max-width:992px){
+    .add-cart .btn{
+    padding: 3px 70px;
+        font-size: 15px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:992px){
+    .buy-now-cus button{
+        padding: 9px 143px;
+            font-size: 10px;
+    }
+}
+@media (min-width:768px){
+    .mySwiper2 {
+        margin-right: 1% !important;
+    }
+        .mySwiper {
+            margin-right: 1% !important;
+        }
+}
+@media (max-width:768px){
+    .first-sec-res {
+        display: flex !important;
+        justify-content: center !important;
+        
+    }
+    .xc {
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+/* review cutom ration section start */
+.product-detail-custom-reviw-section-inner {
+    width: 60%;
+    margin: auto;
+}
+.navbar-cus-for-trigger {
+width: 60%;
+    margin: auto;
+}
+.hr-cus {
+   margin-top: 0.01%;
+   
+}
+
+.our-custome-size {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+}
+
+@media (max-width:927px){
+.product-detail-custom-reviw-section-inner{
+    width: 95% !important;
+    margin: auto !important;
+}
+}
+
+.rating-num-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.three-review {
+    font-size: 10px;
+    margin-top: 25px;
+    position: relative;
+}
+.four-eight::after {
+    content: '';
+    position: absolute;
+    margin-left: 7px;
+    top: 10px;
+    width: 1px;
+    height: 35px;
+    background-color: grey;
+    transform: skewX(-25deg);
+}
+.write-reviw-btn button {
+    border-radius: 0;
+    padding: 4px 8px 4px 8px;
+    font-size: 12px;
+}
+
+/* rating user */
+.user-pht-1 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.fedback-one-main-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.fed-text p {
+    font-size: 13.5px;
+}
+@media (max-width:805px){
+    .four-eight::after{
+        margin-left: 5px !important;
+    }
+}
+
+
+                        .rating {
+                            font-size: 0;
+                        }
+            
+                        /* এখানে star গুলির মাঝখানে কতটুকু জাইগ ফাকা রাখতে চান তা সেট করা হয়েছে যেমন এখানে আমি 0 ফাকা রাখতে চাইছি আপনই চাইলে এটা বাড়াতেও পারেন px ভাবে */
+            
+                        .star {
+                            display: inline-block;
+                            font-size: 17px;
+                            cursor: pointer;
+                            transition: transform 0.2s;
+                        }
+            
+                        .star:hover {
+                            transform: scale(1.5);
+                        }
+            
+                        /* এখানে star গুলির উপরে hover করলে একটু সামনে উঠে আসবে */
+            
+                        .star.activee {
+                            color: gold;
+                        }
+            
+                        /* এখানে slected star এর কালার দেওয়া হয়েছে */
+            
+                        .rating-wrap {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        #rating-value {
+                            margin-left: 5px;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.for-ppsitioning {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.for-van-broder {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+
+}
+
+.btn-cls-cus {
+    margin-left: 0 !important;
+    font-size: 10px;
+    margin-top: -35px !important;
+}
+
+.for-alignn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.for-first-inpt {
+    font-size: 11px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.for-second-inpt {
+    font-size: 11px;
+    padding: 5px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.klk {
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0 !important;
+}
+
+.big-input-cus {
+    width: 100%;
+}
+
+.big-input-cus input {
+    width: 100%;
+    font-size: 12px;
+}
+
+.text-area-cus textarea {
+    border-radius: 0 !important;
+    border-color: #767676;
+    font-size: 12px;
+}
+
+.for-border-none {
+    border: none !important;
+}
+
+.for-border-none button {
+    border-radius: 0 !important;
+    background-color: black !important;
+    color: white;
+}
+
+.for-border-none {
+    margin: auto;
+    padding-top: 15px !important;
+    margin-bottom: 10px;
+}
+
+.for-fs-sizz {
+    font-size: 20px;
+}
+
+.for-border-none button:hover {
+    color: red !important;
+}
+
+/* */
+
+.modal-body-wrap-cus {
+    width: 100%;
+    max-width: 306px;
+    margin: auto;
+}
+
+.rating {
+    font-size: 0;
+}
+
+/* এখানে star গুলির মাঝখানে কতটুকু জাইগ ফাকা রাখতে চান তা সেট করা হয়েছে যেমন এখানে আমি 0 ফাকা রাখতে চাইছি আপনই চাইলে এটা বাড়াতেও পারেন px ভাবে */
+
+.starr {
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.starr:hover {
+    transform: scale(1.5);
+}
+
+/* এখানে star গুলির উপরে hover করলে একটু সামনে উঠে আসবে */
+
+.starr.activee {
+    color: gold;
+}
+
+/* এখানে slected star এর কালার দেওয়া হয়েছে */
+
+.star-main {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.prob-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

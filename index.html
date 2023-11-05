@@ -1,0 +1,1973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Vanila-css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            html {
+  scroll-behavior: smooth !important;
+}
+        </style>
+
+</head>
+
+<body>
+<div id="preloader">
+    <strong>RAKIB</strong>
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<!--header-section-start-->
+    <header class="menu_wrapper">
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-fluid top-nav-inner con-prob">
+<!--hambhurger menu start here-->
+                <button class="navbar-toggler navbar-tglr-cus" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-tgl-icon-cus"></span>
+                </button>
+<!--hambhurger menu ends here-->
+
+<!--navbar brand with icon start here and some elements have in the menu item contens-->
+                <a class="navbar-brand m-auto d-md-none theshop-brand-cus" href="#">Theshop</a>
+                <div class="bag-and-src-icon-wrap ms-auto">
+                    <a class="for-src-icon-cus" href="" data-bs-toggle="modal" data-bs-target="#exampleModal" id="searchButton"><svg
+                            class="src-icon-cus" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <style>
+                                src-icon-cus {
+                                    fill: black
+                                }
+                            </style>
+                            <path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg></a>
+                    <a class="ms-2 phseudo-for-bag-icon" href=""><svg class="bag-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                            height="1em" viewBox="0 0 448 512">
+                            <style>
+                                bag-icon-cus {
+                                    fill: black
+                                }
+                            </style>
+                            <path
+                                d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                        </svg></a>
+                </div>
+<!--navbar brand with icon end here and some elements have in the menu item contens-->
+
+<!--its click search btn to open big searchbox start here-->
+<div class="modal cusss  " id="exampleModal">
+    <div class="modal-dialog modal-dialog-scrollable  mt-0">
+
+        <!--এখান থেকে modal body start-->
+        <div class="modal-body btn-group modal-content model-content-cus shadow-lg">
+            <form class="from-cus d-flex">
+                <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button type="button" class="btn btn-secondary ms-3" data-bs-dismiss="modal">Close</button>
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<!--its click search btn to open big searchbox end here-->
+
+<!--main navbar menu list start here-->
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+
+<!--this element as a navbrand start here-->
+                    <ul class="navbar-nav user-and-star-icon-cus me-auto   mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link for-user-icon-pseudo" href="#"><svg class="user-icon-cus"
+                                    xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <style>
+                                        user-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link for-star-icon-pseudo" href="#"><svg class="star-icon-cus"
+                                    xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <style>
+                                        star-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+<!--this element as a navbrand ends here-->
+
+
+
+                    <ul class="navbar-nav me-auto  mb-lg-0 menu-item-ul-cus">
+                        <li class="nav-item me-1">
+                            <a class="nav-link fs" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item me-1 make-hover dropdown dropdown-mega position-static">
+                            <a class="nav-link fs dropdown-toggle " href="#" role="button" id="navbarDropdown"
+                                 aria-expanded="false" data-bs-auto-close="outside">
+                                PRODUCTS
+                            </a>
+                            <div class="dropdown-menu shadow fuck">
+                                <div class="mega-content px-md-4">
+                                    <div class="container-fluid">
+                                        <div class="row ms-2 with-photo-sub-menu">
+                                            <div class="col-auto py-4 col-first-cus ">
+                                               <div class="img-wrap-1">
+                                                <img class="dropdown-photo-one" src="dropdown-images/1.jpg" alt="" style="max-width: 155px;">
+                                                <img class="dropdown-photo-two" src="dropdown-images/1b.jpg" alt="" style="max-width: 155px;">
+                                                <div class="dropdown-img-icon-wrap">
+                                                    <a class="for-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                            <style>
+                                                                .drop-img-star-icon-cus {
+                                                                    fill: black
+                                                                }
+                                                            </style>
+                                                            <path
+                                                                d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                                                        </svg></a>
+                                                
+                                                    <a class="for-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                                                            <style>
+                                                                .drop-img-arow-icon-cus {
+                                                                    fill: black
+                                                                }
+                                                            </style>
+                                                            <path
+                                                                d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                                                        </svg></a>
+                                                
+                                                    <a class="for-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                            <style>
+                                                                .drop-img-eye-icon-cus {
+                                                                    fill: black
+                                                                }
+                                                            </style>
+                                                            <path
+                                                                d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                                                        </svg></a>
+                                                
+                                                </div>
+                                               </div>
+                                               <div class="dropdown-img-product-driscription">
+                                                <p class="mb-0">The sweater taketa</p>
+                                                <p class="befor-and-cureent-price"><del>$85.00</del>$48.00</p>
+                                               </div>
+                                            </div>
+
+                                            <div class="col-auto py-4">
+                                                <div class="img-wrap-2">
+                                                    <img class="dropdown-photo-one-of-two" src="dropdown-images/2.jpg" alt="" style="max-width: 155px;">
+                                                    <img class="dropdown-photo-two-of-two" src="dropdown-images/2b.jpg" alt="" style="max-width: 155px;">
+                                                    <div class="dropdown-img-icon-wrap">
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                                <style>
+                                                                    .drop-img-star-icon-cus {
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                                                            </svg></a>
+                                                    
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                                                                <style>
+                                                                    .drop-img-arow-icon-cus {
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                                                            </svg></a>
+                                                    
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                                <style>
+                                                                    .drop-img-eye-icon-cus {
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                                                            </svg></a>
+                                                    
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-img-product-driscription-second">
+                                                    <p class="mb-0">Drwan blue cheze</p>
+                                                    <p>$35.00</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-auto py-4">
+                                                <div class="img-wrap-3">
+                                                    <img class="dropdown-photo-one-of-three" src="dropdown-images/3.jpg" alt="" style="max-width: 155px;">
+                                                    <img class="dropdown-photo-two-of-three" src="dropdown-images/3b.jpg" alt="" style="max-width: 155px;">
+                                                    <div class="dropdown-img-icon-wrap">
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                                <style>
+                                                                    .drop-img-star-icon-cus{
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                                                            </svg></a>
+                                                    
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                                                                <style>
+                                                                     .drop-img-arow-icon-cus {
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                                                            </svg></a>
+                                                    
+                                                        <a class="for-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                                                                <style>
+                                                                    .drop-img-eye-icon-cus {
+                                                                        fill: black
+                                                                    }
+                                                                </style>
+                                                                <path
+                                                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                                                            </svg></a>
+                                                    
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown-img-product-driscription-three">
+                                                    <p class="mb-0">Drwan blue cheze</p>
+                                                    <p>$35.00</p>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-auto">
+                                                <div class="roww-menu-item-wrap py-3 ms-5">
+                                                    <a class="nav-link fw-bold pb-0 fs-cus" href="#">Apearal</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Parada</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Gucci</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Zara</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Anotom</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Infinity</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="roww-menu-item-wrap py-3 ms-4">
+                                                    <a class="nav-link fw-bold pb-0 fs-cus" href="#">Shoes</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Nokke</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Pluder</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Addias</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Jons & Week</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Swwt</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Battinger</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Fulte</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Nume</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="roww-menu-item-wrap py-3 ms-4">
+                                                    <a class="nav-link fw-bold pb-0 fs-cus" href="#">Perfume</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Sweet</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Green</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Fogg</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Week</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Mild</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Batt</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Fulte & Mibbe</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Jeanses</a>
+                                                    <a class="nav-link pb-0 fs-cus" href="#">Ghoode</a>
+                                                </div>
+                                            </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                        
+                        <li class="nav-item me-1">
+                            <a class="nav-link fs" href="about.html">DISC</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link fs-4 Theshop-in-the-menu-item" aria-disabled="true">Theshop</a>
+                        </li>
+                        <li class="nav-item dropdown me-1 make-hover-2">
+                            <a class="nav-link dropdown-toggle fs" href="#" role="button" aria-expanded="false">
+                                SPEICALS
+                            </a>
+                            <ul class="dropdown-menu hoverd">
+                                <li><a class="dropdown-item fs-cus-2" href="#">Dolce & Gabbana</a></li>
+                                <li><a class="dropdown-item fs-cus-2" href="#">Louis Voution</a></li>
+                                <li><a class="dropdown-item fs-cus-2" href="#">Versace</a></li>
+                                <li><a class="dropdown-item fs-cus-2" href="#">Dior</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link fs" href="indexSub.html">SALE</a>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+<!--main navbar menu list end here-->
+
+            </div>
+        </nav>
+    </header>
+<!--header-section-end-->
+
+<!--offcanvas hamburger menu list section start here-->
+<div class="offcanvas  offcanvas-start offcanvas-parent-cus" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header bg-body-secondary">
+        <h5 class="offcanvas-title m-auto" id="offcanvasWithBothOptionsLabel">Theshop</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body bg-body-tertiary d-flex">
+      
+                
+                
+             
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Parada</a></li>
+                                <li><a class="dropdown-item" href="#">Gucci</a></li>
+                                <li><a class="dropdown-item" href="#">Zara</a></li>
+                                <li><a class="dropdown-item" href="#">Anthom</a></li>
+                                <li><a class="dropdown-item" href="#">Infinty</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">DISC</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SPEICALS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dolce & Gabbana</a></li>
+                                <li><a class="dropdown-item" href="#">Louis Voution</a></li>
+                                <li><a class="dropdown-item" href="#">Versace</a></li>
+                                <li><a class="dropdown-item" href="#">Dior</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">DISC</a>
+                        </li>
+                    </ul>
+
+
+                    <form class="d-flex flex-column gap-1 form-cus-1 w-100">
+                    
+                        <button class="btn btn-primary w-100 log-btn-cus-1 " type="button">LOGIN</button>
+                        <button class="btn btn-primary w-100 reg-btn-cus-2" type="button">REGISTER</button>
+                    
+                    
+                    </form>
+           </div>
+</div>
+<!--offcanvas hamburger menu list section ends here-->
+
+
+<!--first-product-big-image-slider-start-here-->
+<section class="first-big-product-img-slider-section">
+    <div class="first-big-product-img-slider-section-inner">
+
+        <div class="owl-carousel owl-theme carousel-1">
+            <div class="item">
+                <div class="in-the-bg-img-1 ">
+                    <div class="big-photo-slider-img-text-wrap-0">
+                        <div class="price-wrap-1">
+                            <p>$39</p>
+                        </div>
+                        <div class="product-text-0">
+                            <p>Feel the tosa <br> color</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary first-slid-btn-cus-0"><a class="nav-link" href="indexSub.html">SHOP NOW</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="in-the-bg-img-2 ">
+                    <div class="big-photo-slider-img-text-wrap-1">
+                        <div class="price-wrap-2">
+                            <p>$39</p>
+                        </div>
+                        <div class="product-text-1">
+                            <p>Inner world is <br> brown</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary first-slid-btn-cus-1"><a class="nav-link" href="indexSub.html">SHOP NOW</a></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="in-the-bg-img-3 ">
+                    <div class="big-photo-slider-img-text-wrap-2">
+                        <div class="price-wrap-3">
+                            <p>$39</p>
+                        </div>
+                        <div class="product-text-2">
+                            <p>What a mix of <br>color's</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-light first-slid-btn-cus-1"><a class="nav-link" href="indexSub.html">SHOP NOW</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!--first-product-big-image-slider-ends-here-->
+
+
+<!--product-guide-section-start-here-->
+<section class="product-guide-section ">
+    <div class="product-guid-sec-inner container">
+        <div class="product-guide-cus text-center fs-4">
+            <p>Product Guide</p>
+        </div>
+        <div class="product-iten-wrap-cus-1">
+            <div class="row g-3 justify-content-center">
+                <div class="col-auto">
+                    <img class="img-guid" src="all-ex-img/guide_01.png" alt="">
+                    <div class="img-guid-all-text-wrap-1">
+                        <div class="pht-dis-head-cus-1 mt-2">
+                            <p>The blue ocean MX</p>
+                        </div>
+                        <div class="pht-guid-discrip-1 ">
+                            <p>
+                                This is the color that you need and shine.all world need this color and shine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <img class="img-guid" src="all-ex-img/guide_02.png" alt="">
+                    <div class="img-guid-all-text-wrap-1">
+                        <div class="pht-dis-head-cus-1 mt-2">
+                            <p>The grew!~sweater</p>
+                        </div>
+                        <div class="pht-guid-discrip-1 ">
+                            <p>
+                                This is the color that you need and shine.all world need this color and shine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <img class="img-guid" src="all-ex-img/guide_03.png" alt="">
+                    <div class="img-guid-all-text-wrap-1">
+                        <div class="pht-dis-head-cus-1 mt-2">
+                            <p>Soft popie shirt</p>
+                        </div>
+                        <div class="pht-guid-discrip-1 ">
+                            <p>
+                                This is the color that you need and shine.all world need this color and shine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+    </div>
+</section>
+<!--product-guide-section-ends-here-->
+
+<!--new arival section start-->
+<section class="new-arrival-section">
+    <div class="new-arrival-section-inner">
+        <div class="new-arrival-head-text mt-5">
+            <p>New Arrivals</p>
+        </div>
+        <div class="owl-carousel carousel-2 owl-theme second-owl">
+
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_01.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_01b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                            <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em"
+                                    viewBox="0 0 448 512">
+                                    <style>
+                                        .drop-img-arow-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                                </svg></a>
+                                <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg" height="0.8em"
+                                        viewBox="0 0 576 512">
+                                        <style>
+                                            .drop-img-eye-icon-cus {
+                                                fill: black
+                                            }
+                                        </style>
+                                        <path
+                                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                                    </svg></a>
+                        
+                    
+                        
+                    
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New blue mmx</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$40</p>
+                </div>
+
+            </div>
+            <div class="item">
+                    <div class="pro-carosel-img-wrap">
+                        <img class="pro-carou-img-front" src="all-ex-img/product_02.jpg" alt="">
+                        <img class="pro-carou-img-back" src="all-ex-img/product_02b.jpg" alt="">
+                        <div class="product-img-icon-wrap">
+                            <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                    height="0.8em" viewBox="0 0 576 512">
+                                    <style>
+                                        .drop-img-star-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                                </svg></a>
+                            <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                    height="0.8em" viewBox="0 0 448 512">
+                                    <style>
+                                        .drop-img-arow-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                                </svg></a>
+                            <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                    height="0.8em" viewBox="0 0 576 512">
+                                    <style>
+                                        .drop-img-eye-icon-cus {
+                                            fill: black
+                                        }
+                                    </style>
+                                    <path
+                                        d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                                </svg></a>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+                    <div class="new-arri-pht-discr-1 mt-1 text-center">
+                        <p>New blue LLC</p>
+                    </div>
+                    <div class="new-arri-price-1 text-center">
+                        <p>$30</p>
+                    </div>
+
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_03.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_03b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New red mulk</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$20</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_04.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_04b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New red mulk</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p><del>$60</del> $45</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_05.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_05b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New pink csvv</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$10</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_06.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_06b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New white jean</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$60</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_07.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_07b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New hashtag</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$35</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pro-carosel-img-wrap">
+                    <img class="pro-carou-img-front" src="all-ex-img/product_08.jpg" alt="">
+                    <img class="pro-carou-img-back" src="all-ex-img/product_08b.jpg" alt="">
+                    <div class="product-img-icon-wrap">
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-star-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 448 512">
+                                <style>
+                                    .drop-img-arow-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg></a>
+                        <a class="pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                                height="0.8em" viewBox="0 0 576 512">
+                                <style>
+                                    .drop-img-eye-icon-cus {
+                                        fill: black
+                                    }
+                                </style>
+                                <path
+                                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                            </svg></a>
+            
+            
+            
+            
+                    </div>
+                </div>
+                <div class="new-arri-pht-discr-1 mt-1 text-center">
+                    <p>New blink red</p>
+                </div>
+                <div class="new-arri-price-1 text-center">
+                    <p>$20</p>
+                </div>
+            </div>
+
+        
+          
+        </div>
+    </div>
+</section>
+<!--new arival section end-->
+
+<!--mix-product section start-->
+<section class="in-mix-product-section mt-4">
+    <div class="in-mix-product-section-inner">
+
+        <div class="wrap-for-problem">
+                    <div class="mix-product-head-text">
+                        <p>In</p>
+                    </div>
+                    
+                    <select class="form-select select-from-cus" id="imageSelector" aria-label="Default select example">
+                        <option selected value="section1">Sweater</option>
+                        <option value="section2">Basic</option>
+                        <option value="section3">Normal</option>
+                    </select>
+        </div>
+    
+<div class="row g-2 m-auto image-section" id="section1">
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_01.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_01b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter Tosca</p>
+            </div>
+            <div class="prices">
+                <p><del>$70</del>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_02.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_02b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_03.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_03b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Zirand Tosca</p>
+            </div>
+            <div class="prices">
+                <p><del>$30</del>$25</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_04.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_04b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Shirt Tosca</p>
+            </div>
+            <div class="prices">
+                <p>$55</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_05.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_05b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p>$15</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_06.jpg" alt="" >
+            <img class="back-img" src="all-ex-img/product_06b.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus" xmlns="http://www.w3.org/2000/svg"
+                        height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+            
+            
+            
+            
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Bimam Tosca</p>
+            </div>
+            <div class="prices">
+                <p>$35</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="row g-2 m-auto image-section" id="section2">
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_01b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_01.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p><del>$70</del>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_02b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_02.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_03b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_03.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Zirand Tosca</p>
+            </div>
+            <div class="prices">
+                <p><del>$30</del>$25</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_04b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_04.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Shirt Tosca</p>
+            </div>
+            <div class="prices">
+                <p>$55</p>
+            </div>
+        </div>
+
+    </div>
+    
+   
+
+</div>
+<div class="row g-2 m-auto image-section" id="section3">
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_01b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_01.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p><del>$70</del>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_02b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_02.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Swearter</p>
+            </div>
+            <div class="prices">
+                <p>$35</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-auto">
+        <div class="images-wrap">
+            <img class="font-img" src="all-ex-img/product_03b.jpg" alt="">
+            <img class="back-img" src="all-ex-img/product_03.jpg" alt="">
+            <div class="mix-product-img-icon-wrap">
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-star-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-star-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-arow-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512">
+                        <style>
+                            .drop-img-arow-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                    </svg></a>
+                <a class="mix-pro-hover-icon" href="#"><svg class="drop-img-eye-icon-cus"
+                        xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 576 512">
+                        <style>
+                            .drop-img-eye-icon-cus {
+                                fill: black
+                            }
+                        </style>
+                        <path
+                            d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                    </svg></a>
+
+
+
+
+            </div>
+        </div>
+        <div class="mix-pro-img-discrip-wrap">
+            <div class="head-1">
+                <p>The Zirand Tosca</p>
+            </div>
+            <div class="prices">
+                <p><del>$30</del>$25</p>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+</div>
+    </div>
+</section>
+<!--mix-product section end-->
+
+<!--get ready section start-->
+<section class="get-ready-section">
+    <div class="get-ready-section-inner">
+        <div class="body-text-wrap">
+            <div class="promo">
+                <p>PROMO</p>
+            </div>
+            <div class="get-ready">
+                <p>Get ready! <br> Winter is coming..</p>
+            </div>
+            <div class="get-ready-sec-btn-cus"><button type="button" class="btn btn-outline-secondary"><a class="nav-link" href="indexSub.html">Go Get It</a></button>
+            </div>
+        </div>
+        
+
+
+        <div class="for-bg-img"></div>
+        
+    </div>
+</section>
+<!--get ready section end-->
+
+<!--from the blog section satat-->
+<section class="from-the-blog-section">
+    <div class="from-the-blog-section-inner container">
+        <div class="from-the-blog-head-text">
+            <p>From The Blog</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <div class="blog-img-1-wrap">
+                    <img class="blog-img-1" src="all-ex-img/blog_01.jpg" alt="">
+                </div>
+                <div class="blog-sec-btn-cus mt-2">
+                    <button type="button" class="btn btn-outline-secondary">HOODIE</button>
+                </div>
+                <div class="blog-photo-discri mt-2">
+                    <p>What is easier kniting or cloothing?</p>
+
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="blog-img-1-wrap">
+                    <img class="blog-img-1" src="all-ex-img/blog_02.jpg" alt="">
+                </div>
+                <div class="blog-sec-btn-cus mt-2">
+                    <button type="button" class="btn btn-outline-secondary">TIPS</button>
+                </div>
+                <div class="blog-photo-discri mt-2">
+                    <p>Properly wear a hoodie</p>
+                
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="blog-img-1-wrap">
+                    <img class="blog-img-1" src="all-ex-img/blog_03.jpg" alt="">
+                </div>
+                <div class="blog-sec-btn-cus mt-2">
+                    <button type="button" class="btn btn-outline-secondary">SWEATER</button>
+                </div>
+                <div class="blog-photo-discri mt-2">
+                    <p>What should i wear under a sweater?</p>
+                </div>
+            </div>
+            <div class="blog-main-btn-cus">
+                <button type="button" class="btn bg-black btn-sm">READ MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--from the blog section end-->
+
+<!--popular-instagram-section-start-->
+<section class="popular-instagram-section">
+    <div class="popular-instagram-section-inner">
+        <div class="popular-text-cus">
+            <p>Popular Instagram Photos</p>
+        </div>
+        <div class="row g-0 justify-content-center pt-3">
+            <div class="col-auto for-icon">
+                <img class="ing-img-cus" src="instagram-img/ig_01.jpg" alt="">
+            <a class="ing-icon-cus" href="#">
+                <svg  xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512">
+                    <style>
+                        svg {
+                            fill: #3a4b69
+                        }
+                    </style>
+                    <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                </svg>
+            </a>
+            </div>
+            
+            <div class="col-auto for-icon">
+                <img class="ing-img-cus" src="instagram-img/ig_02.jpg" alt="">
+                <a class="ing-icon-cus" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512">
+                        <style>
+                            svg {
+                                fill: #3a4b69
+                            }
+                        </style>
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-auto for-icon">
+                <img class="ing-img-cus" src="instagram-img/ig_03.jpg" alt="">
+                <a class="ing-icon-cus" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512">
+                        <style>
+                            svg {
+                                fill: #3a4b69
+                            }
+                        </style>
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-auto for-icon">
+                <img class="ing-img-cus" src="instagram-img/ig_04.jpg" alt="">
+                <a class="ing-icon-cus" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512">
+                        <style>
+                            svg {
+                                fill: #3a4b69
+                            }
+                        </style>
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-auto for-icon">
+                <img class="ing-img-cus" src="instagram-img/ig_05.jpg" alt="">
+                <a class="ing-icon-cus" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512">
+                        <style>
+                            svg {
+                                fill: #3a4b69
+                            }
+                        </style>
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--popular-instagram-section-end-->
+
+<!--sub-footer-start-->
+ <section class="sub-footer-section">
+    <div class="inner-sub-footer-section container">
+
+        <div class="row gx-5 many-menu-main-cus">
+
+            <div class="col-auto">
+                <div class="get-voucher-cus">
+                    <p>Get voucher from us</p>
+                </div>
+                <div class="enter-ur-mail-cus">
+                    <p>Enter your email below to be find to know about collections and product launches</p>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                    <input type="text" class="form-control input-btn-cus" id="searchInput"
+                        placeholder="Enter your email">
+                    <button class="btn btn-secondary clear-btn-cus" id="clearButton" type="button"><i
+                            class="fas fa-times"></i>
+                    </button>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+            </div>
+
+
+            <div class="col-auto">
+                <div class="row  gx-5 many-menu-cus">
+                    <div class="col-auto footer-menu-list-cus-1">
+                        <a class="nav-link fw-bold" aria-current="page" href="#">Service</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Careers</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Delivery<br>Information</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Terms & <br>Condition</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Privacy<br>Policy</a>
+                    </div>
+
+                    <div class="col-auto col-auto footer-menu-list-cus-2">
+                        <a class="nav-link fw-bold" aria-current="page" href="#">Pages</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">My <br> Accound</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Login</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">My <br>Wishlist</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">My <br>Cart</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">My <br>Checkout</a>
+                    </div>
+
+
+                    <div class="col-auto footer-menu-list-cus-3">
+                        <a class="nav-link fw-bold" aria-current="page" href="#">Pages</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Simpang 5 No 1 <br> Central Java -
+                            ID</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Simpang 5 No 1 <br>+62123456789</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Simpang 5 No 1 <br>hello@youtube.com</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Simpang 5 No 1 <br>Weekdays:6AM to <br>
+                            6PM</a>
+                        <a class="nav-link for-fs" aria-current="page" href="#">Saturday:6PM to <br>3PM</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--sub-footer-end-->
+
+<section class="last-footer-section mt-5">
+    <div class="last-footer-section-inner container">
+        <div class="row">
+            <div class="col-6">
+                <div class="icon-wrapping">
+                    <a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512">
+                            <style>
+                                svg {
+                                    fill: #3d64a9
+                                }
+                            </style>
+                            <path
+                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                        </svg>
+                    </a>
+                    <a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 448 512">
+                            <style>
+                                svg {
+                                    fill: #436298
+                                }
+                            </style>
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                    <a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 512 512">
+                            <style>
+                                svg {
+                                    fill: #324362
+                                }
+                            </style>
+                            <path
+                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                        </svg>
+                    </a>
+                    <a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 496 512">
+                            <style>
+                                svg {
+                                    fill: #3c4658
+                                }
+                            </style>
+                            <path
+                                d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 ">
+                <div class="copywrite-cus">
+                    <a class="nav-link problem-four" href="">
+                        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 512 512">
+                            <style>
+                                svg {
+                                    fill: #3e4c65
+                                }
+                            </style>
+                            <path
+                                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z" />
+                        </svg>
+                        <p class="copywrit-cus-text ">copyright reserved</p>
+                    </a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="jquery.elevator.js"></script>
+<script src="app.js"></script>
+
+
+<script>
+$(document).ready(function () {
+        // Hide the clear button initially
+        $("#clearButton").hide();
+
+        // Show/hide clear button based on input content
+        $("#searchInput").on("input", function () {
+            if ($(this).val().trim() !== "") {
+                $("#clearButton").show();
+            }
+
+            else {
+                $("#clearButton").hide();
+            }
+        });
+
+        // Clear text in the input field when the clear button is clicked
+        $("#clearButton").click(function () {
+            $("#searchInput").val("");
+            $(this).hide();
+        });
+    });
+
+
+//for preloader
+    $(window).on("load", function () {
+        $("#preloader").fadeOut();
+    })
+
+		
+</script>
+
+
+</body>
+
+</html>
